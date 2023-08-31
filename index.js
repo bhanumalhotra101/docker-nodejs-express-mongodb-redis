@@ -75,7 +75,7 @@ app.use(express.json());
 
 // Define a route for the root URL
 app.get("/api/v1", (req, res) => {
-  res.send("<h2>Hi Interviewer, hope you are doing good</h2>"); // Send a simple HTML response
+  res.send("<h2>Hi Interviewer, hope you are doing good! </h2>"); // Send a simple HTML response
   console.log("yeah it ran");   // Log a message to the console
 });
 
